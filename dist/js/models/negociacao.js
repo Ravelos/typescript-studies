@@ -4,16 +4,16 @@ export class Negociacao {
         this.quantidade = quantidade;
         this.valor = valor;
     }
-    getdata() {
+    getData() {
         return this.data;
     }
-    getquantidade() {
+    getQuantidade() {
         return this.quantidade;
     }
-    getvalor() {
+    getValor() {
         return this.valor;
     }
-    getvolumen() {
+    getVolumen() {
         return this.quantidade * this.valor;
     }
 }
