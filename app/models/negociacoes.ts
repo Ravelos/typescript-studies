@@ -8,9 +8,7 @@ export class Negociacoes{
     }
 
     lista(): Array<Negociacao>{
-        return this.negociacoes;
+        return [...this.negociacoes];
     }
 }
 
-const negociacoes = new Negociacoes();
-negociacoes.adiciona(new Negociacao());
